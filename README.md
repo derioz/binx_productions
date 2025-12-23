@@ -1,6 +1,6 @@
-# Binx Productions - Photography Portfolio - Created by Damon
+# Binx Productions - Photography Portfolio
 
-A high-performance, dark-themed photography agency landing page.
+The central hub for the Binx visual agency.
 
 ## ⚠️ IMPORTANT: Setup
 1.  Save your logo as `public/logo.png`.
@@ -11,26 +11,53 @@ A high-performance, dark-themed photography agency landing page.
 
 ---
 
-## 📸 WORKFLOW: How to Update the Website
+## 📸 PHOTOGRAPHER PROTOCOL: FILE NAMING
 
-Follow these steps to add new photos and update the live site.
+**ATTENTION CREATIVE TEAM:**
+To ensure the Portfolio Engine correctly sorts your work, you **must** follow this strict naming convention before uploading to the `public/gallery` folder.
 
-### 1. Add Photos
-Drop your images (`.jpg`, `.png`, `.webp`) into the `public/gallery` folder.
+### The Golden Rule
+The system reads filenames to generate the website. It splits the filename by **Underscores (`_`)**.
 
-**Naming Convention:**
-`Photographer_Category_Session-Name_Title.jpg`
-*   Example: `Damon_Automotive_Midnight-Run_Drift-King.jpg`
-*   *Note: Use dashes instead of spaces. They are converted automatically.*
+**Format:**
+`[Artist]_[Category]_[Session-Name]_[Photo-Title].jpg`
 
-### 2. Run the Scanner (The Engine)
-This command detects your new files and updates the code registry.
+### ⚠️ Critical Syntax
+1.  **Separators:** Use Underscores `_` to separate the 4 main tags.
+2.  **Spaces:** Use Dashes `-` for spaces *inside* a name. **NEVER** use actual spaces in the filename.
+3.  **Extensions:** `.jpg`, `.png`, or `.webp` are accepted.
+
+### 📝 Examples
+
+| Scenario | ❌ WRONG | ✅ CORRECT |
+| :--- | :--- | :--- |
+| **Standard** | `Damon Car Shot.jpg` | `Damon_Automotive_Midnight-Run_GT3-Rear.jpg` |
+| **Multi-word Title** | `Amy_Portraits_Summer_Vibes_Sunset.jpg` (Too many underscores) | `Amy_Portraits_Summer-Vibes_Sunset-Glow.jpg` |
+| **Events** | `Callum_Event_Gala_1.jpg` | `Callum_Events_Charity-Gala_Red-Carpet-01.jpg` |
+
+### 📂 Category List (Standardized)
+Please stick to these categories to keep the filter bar clean:
+*   `Automotive`
+*   `Portraits`
+*   `Events`
+*   `Urban`
+*   `Editorial`
+
+### 💡 Pro Tip: Creating Sessions
+To group photos into a specific folder/page on the site (e.g., "The Gala"), simply use the same **Session Name** (3rd tag) for multiple photos. The site automatically groups them.
+
+---
+
+## 🚀 MANAGEMENT WORKFLOW
+
+### 1. Run the Scanner (The Engine)
+After dropping photos into `public/gallery`, run this command to update the code registry:
 ```bash
 npm run gallery:scan
 ```
 
-### 3. Build & Deploy
-Once the scan is complete, build the application to finalize the changes for the website.
+### 2. Build & Deploy
+Once the scan is complete, build the application to finalize the changes for the website:
 ```bash
 npm run build
 ```
