@@ -1,4 +1,4 @@
-# Binx Productions - Photography Portfolio
+# Binx Productions - Photography Portfolio - Created by Damon
 
 A high-performance, dark-themed photography agency landing page.
 
