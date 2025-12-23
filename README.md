@@ -1,4 +1,4 @@
-# Binx Productions - Photography Portfolio
+# Binx Productions - Photography Portfolio - Created by Damon
 
 The central hub for the Binx visual agency.
 
@@ -36,12 +36,18 @@ The system reads filenames to generate the website. It splits the filename by **
 | **Events** | `Callum_Event_Gala_1.jpg` | `Callum_Events_Charity-Gala_Red-Carpet-01.jpg` |
 
 ### 📂 Category List (Standardized)
-Please stick to these categories to keep the filter bar clean:
-*   `Automotive`
-*   `Portraits`
-*   `Events`
-*   `Urban`
-*   `Editorial`
+Please stick to these **5 Core Categories** to keep our portfolio consistent:
+
+1.  **Portraits**
+    *   *Usage:* Character headshots, ID photos, modeling, bios.
+2.  **Automotive**
+    *   *Usage:* Car meets, racing, dealership showcases, stance shots.
+3.  **Tactical**
+    *   *Usage:* PD raids, gang shootouts, heist scenes, EMS response.
+4.  **Lifestyle**
+    *   *Usage:* Club nights, business interiors, casual street RP, outfits.
+5.  **Events**
+    *   *Usage:* Weddings, elections, court cases, major server gatherings.
 
 ### 💡 Pro Tip: Creating Sessions
 To group photos into a specific folder/page on the site (e.g., "The Gala"), simply use the same **Session Name** (3rd tag) for multiple photos. The site automatically groups them.
