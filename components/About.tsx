@@ -25,10 +25,10 @@ const About: React.FC = () => {
        {/* Background Noise */}
        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 mix-blend-overlay pointer-events-none"></div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center gap-20">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center gap-20 group">
         
         {/* Left: Image with Glitch/Frame effect */}
-        <div className="w-full md:w-5/12 relative group">
+        <div className="w-full md:w-5/12 relative">
            <div className="absolute inset-0 bg-binx-cyan/20 translate-x-4 translate-y-4 rounded-sm transition-transform duration-500 group-hover:translate-x-2 group-hover:translate-y-2"></div>
            <div className="relative aspect-[3/4] overflow-hidden rounded-sm border border-white/10 bg-black">
              <img 
@@ -46,9 +46,9 @@ const About: React.FC = () => {
         
         {/* Right: Text Content */}
         <div className="w-full md:w-7/12">
-          <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.8] mb-12">
-            THE<br/>
-            <span className="text-gray-700 group-hover:text-white transition-colors pr-6">VISION</span>
+          <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9] mb-12">
+            <span className="block">THE</span>
+            <span className="block text-gray-700 group-hover:text-white transition-colors pb-2">VISION</span>
           </h2>
 
           <div className="space-y-8 pl-4 border-l border-white/10">

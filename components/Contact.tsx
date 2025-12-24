@@ -19,11 +19,11 @@ const Contact: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         
         {/* HEADER: BIG & BOLD */}
-        <div className="mb-20 flex flex-col md:flex-row justify-between items-end gap-8 border-b border-white/10 pb-12">
+        <div className="mb-20 flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-b border-white/10 pb-12">
           <div>
-            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.8]">
-              LETS<br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pr-6">WORK</span>
+            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+              <span className="block">LETS</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-2">WORK</span>
             </h2>
           </div>
           <div className="md:w-1/3 md:text-right">

@@ -23,16 +23,16 @@ const Gallery: React.FC = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Header Section */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20 border-b border-white/10 pb-12 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 border-b border-white/10 pb-12 gap-8">
            <div>
-              <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.8]">
-                RECENT<br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600 pr-6">SHOTS</span>
+              <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+                <span className="block">RECENT</span>
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600 pb-2">SHOTS</span>
               </h2>
            </div>
            
            {/* Filters */}
-           <div className="flex flex-wrap gap-3 justify-end">
+           <div className="flex flex-wrap gap-3 justify-start md:justify-end">
             {categories.map((cat) => (
               <button
                 key={cat}

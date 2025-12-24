@@ -47,14 +47,14 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         
         {/* HEADER */}
-        <div className="mb-24 border-b border-white/10 pb-12 flex flex-col md:flex-row justify-between items-end gap-8">
+        <div className="mb-24 border-b border-white/10 pb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
           <div>
-            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.8]">
-              OUR<br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-binx-yellow via-white to-binx-yellow animate-shine bg-[length:200%_auto] pr-6">CRAFT</span>
+            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+              <span className="block">OUR</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-yellow via-white to-binx-yellow animate-shine bg-[length:200%_auto] pb-2">CRAFT</span>
             </h2>
           </div>
-          <p className="text-gray-400 text-lg font-light max-w-sm text-right">
+          <p className="text-gray-400 text-lg font-light max-w-sm text-left md:text-right">
              Tailored visual packages for the city's movers and shakers. We don't just take photos; we build legacies.
           </p>
         </div>
