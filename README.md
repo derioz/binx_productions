@@ -1,4 +1,4 @@
-# Binx Productions - Photography Portfolio - Created by Damon
+# Binx Productions - Photography Portfolio
 
 The central hub for the Binx visual agency.
 
@@ -8,6 +8,19 @@ The central hub for the Binx visual agency.
     ```bash
     npm install
     ```
+
+---
+
+## 🌐 CUSTOM DOMAIN SETUP
+This project includes an automated CNAME generator built into the bundler.
+
+1.  Open `vite.config.ts`.
+2.  Locate the `DOMAIN` variable at the top of the file.
+    ```typescript
+    const DOMAIN = 'binx.productions';
+    ```
+3.  Update it if you change domains in the future.
+4.  Run `npm run build`. The `CNAME` file will be auto-generated in the `docs/` folder.
 
 ---
 
