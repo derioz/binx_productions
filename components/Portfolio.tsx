@@ -134,9 +134,9 @@ const Portfolio: React.FC<PortfolioProps> = ({ onBack }) => {
             
             {!viewingSession && (
               <div className="animate-fade-in-up">
-                <h1 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9] mb-6">
+                <h1 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-none mb-6">
                   <span className="block">THE</span>
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-2">WORK</span>
+                  <span className="block w-fit text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-4">WORK</span>
                 </h1>
                 <p className="text-gray-400 mt-4 max-w-md font-light text-lg border-l-2 border-binx-cyan/50 pl-4">
                   Visual narratives from the underground. <br/> Filter by artist, style, or mood.

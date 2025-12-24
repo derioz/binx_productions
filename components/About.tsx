@@ -46,9 +46,9 @@ const About: React.FC = () => {
         
         {/* Right: Text Content */}
         <div className="w-full md:w-7/12">
-          <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9] mb-12">
+          <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-none mb-12">
             <span className="block">THE</span>
-            <span className="block text-gray-700 group-hover:text-white transition-colors pb-2">VISION</span>
+            <span className="block w-fit text-gray-700 group-hover:text-white transition-colors pb-2">VISION</span>
           </h2>
 
           <div className="space-y-8 pl-4 border-l border-white/10">

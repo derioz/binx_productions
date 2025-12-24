@@ -49,9 +49,9 @@ const Services: React.FC = () => {
         {/* HEADER */}
         <div className="mb-24 border-b border-white/10 pb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
           <div>
-            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-none">
               <span className="block">OUR</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-yellow via-white to-binx-yellow animate-shine bg-[length:200%_auto] pb-2">CRAFT</span>
+              <span className="block w-fit text-transparent bg-clip-text bg-gradient-to-r from-binx-yellow via-white to-binx-yellow animate-shine bg-[length:200%_auto] pb-4">CRAFT</span>
             </h2>
           </div>
           <p className="text-gray-400 text-lg font-light max-w-sm text-left md:text-right">

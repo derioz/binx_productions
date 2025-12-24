@@ -21,9 +21,9 @@ const Contact: React.FC = () => {
         {/* HEADER: BIG & BOLD */}
         <div className="mb-20 flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-b border-white/10 pb-12">
           <div>
-            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+            <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-none">
               <span className="block">LETS</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-2">WORK</span>
+              <span className="block w-fit text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-4">WORK</span>
             </h2>
           </div>
           <div className="md:w-1/3 md:text-right">

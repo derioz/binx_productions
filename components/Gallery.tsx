@@ -25,9 +25,9 @@ const Gallery: React.FC = () => {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 border-b border-white/10 pb-12 gap-8">
            <div>
-              <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9]">
+              <h2 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-none">
                 <span className="block">RECENT</span>
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600 pb-2">SHOTS</span>
+                <span className="block w-fit text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600 pb-4">SHOTS</span>
               </h2>
            </div>
            
