@@ -110,7 +110,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ onBack }) => {
       <div className="max-w-[1400px] mx-auto relative z-10">
         
         {/* TOP NAVIGATION / HEADER AREA */}
-        <div className="flex flex-col xl:flex-row justify-between items-end mb-16 border-b border-white/10 pb-12 gap-8">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end mb-16 border-b border-white/10 pb-12 gap-8">
           <div className="w-full xl:w-1/2">
             <button 
               onClick={() => {
@@ -134,9 +134,9 @@ const Portfolio: React.FC<PortfolioProps> = ({ onBack }) => {
             
             {!viewingSession && (
               <div className="animate-fade-in-up">
-                <h1 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.8] mb-6 pr-4">
-                  THE<br/>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pr-6">WORK</span>
+                <h1 className="text-7xl md:text-9xl font-display font-bold text-white tracking-tighter leading-[0.9] mb-6">
+                  <span className="block">THE</span>
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-binx-cyan via-white to-binx-cyan animate-shine bg-[length:200%_auto] pb-2">WORK</span>
                 </h1>
                 <p className="text-gray-400 mt-4 max-w-md font-light text-lg border-l-2 border-binx-cyan/50 pl-4">
                   Visual narratives from the underground. <br/> Filter by artist, style, or mood.
@@ -207,8 +207,8 @@ const Portfolio: React.FC<PortfolioProps> = ({ onBack }) => {
                 
                 {/* Photographer Filter */}
                 <div className="flex flex-col gap-3">
-                    <span className="text-[9px] font-mono text-gray-500 uppercase tracking-widest text-right">Artist</span>
-                    <div className="flex flex-wrap gap-2 justify-end">
+                    <span className="text-[9px] font-mono text-gray-500 uppercase tracking-widest md:text-right">Artist</span>
+                    <div className="flex flex-wrap gap-2 md:justify-end">
                     {photographers.map((name) => (
                         <button
                         key={name}
@@ -227,8 +227,8 @@ const Portfolio: React.FC<PortfolioProps> = ({ onBack }) => {
 
                 {/* Category Filter */}
                 <div className="flex flex-col gap-3">
-                    <span className="text-[9px] font-mono text-gray-500 uppercase tracking-widest text-right">Category</span>
-                    <div className="flex flex-wrap gap-2 justify-end">
+                    <span className="text-[9px] font-mono text-gray-500 uppercase tracking-widest md:text-right">Category</span>
+                    <div className="flex flex-wrap gap-2 md:justify-end">
                     {categories.map((cat) => (
                         <button
                         key={cat}
