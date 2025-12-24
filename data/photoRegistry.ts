@@ -56,7 +56,21 @@ const createPlaceholder = (text: string, colorStart: string, colorEnd: string) =
 // To add photos, upload them to your 'public/gallery' folder and add 
 // their filenames here.
 // ==================================================================
-const GALLERY_FILES: string[] = [];
+const GALLERY_FILES: string[] = [
+  'Callum_Portraits_Jimmy-Streets_Gangster.png',
+  'Damon_Cars_Damons-Car_Damon-Close-Up.png',
+  'Damon_Cars_Damons-Car_Damon-Fish-Eye.png',
+  'Damon_Cars_Damons-Car_Damon-Forward.png',
+  'Damon_Cars_Damons-Car_Damon-Side-View.png',
+  'Damon_Cars_Damons-Car_Damons-Car-Left.png',
+  'Damon_Cars_Winter-Drifting-Damon-n-Mits.png',
+  'Damon_Cars_Winter-Drifting-Dump-Truck.png',
+  'Damon_Cars_Winter-Drifting-Side Stance.png',
+  'Damon_Cars_Winter-Drifting-Side-View.png',
+  'Damon_Cars_Winter-Drifting-Stance.png',
+  'Marianna_Portraits_Family-and-Friends_Redacted.png',
+  'Marianna_Portraits_Family-and-Friends_Streets-and-Marianna.png',
+];
 
 // ==================================================================
 // 2. PARSING LOGIC
